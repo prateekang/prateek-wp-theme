@@ -7,6 +7,10 @@ while(have_posts()):
 get_template_part('template/content/content-single');
 the_post_thumbnail(array(100,100)); 
 the_excerpt();    
+the_author();
+the_author_meta('description') ;
+the_author_meta('avator');
+the_author_meta('ID');
 endwhile;
 ?>
 <?php get_footer(); ?>
