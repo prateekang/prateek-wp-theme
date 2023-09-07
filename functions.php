@@ -9,4 +9,6 @@ add_action('after_setup_theme','theme_setup');
 function theme_setup(){
  /* post thumbnail */
     add_theme_support( 'post-thumbnails' );
+
+    add_post_type_support('page','excerpt');
 }
