@@ -13,6 +13,8 @@ the_author_meta('avator');
 the_category();
 the_tags();
 the_post_navigation();
+previous_post_link();
+next_post_link();
 endwhile;
 ?>
 <?php get_footer(); ?>
