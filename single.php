@@ -10,7 +10,6 @@ the_excerpt();
 the_author();
 the_author_meta('description') ;
 the_author_meta('avator');
-the_author_meta('ID');
 endwhile;
 ?>
 <?php get_footer(); ?>
