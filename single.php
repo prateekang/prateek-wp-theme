@@ -5,7 +5,7 @@ while(have_posts()):
     the_post();
     the_title();
 get_template_part('template/content/content-single');
-the_post_thumbnail(array(100,100)); 
+the_post_thumbnail(array(400,400)); 
 the_excerpt();    
 the_author();
 the_author_meta('description') ;
@@ -17,4 +17,4 @@ previous_post_link();
 next_post_link();
 endwhile;
 ?>
-<?php get_footer(); ?>
+<?php get_footer(); ?> 
